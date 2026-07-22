@@ -34,11 +34,8 @@ z-index:1000;
 }
 
 .logo img{
-    width:180px;
+    width:150px;
     height:auto;
-    max-height:55px;
-    object-fit:contain;
-    display:block;
 }
 
 nav a{
