@@ -1,4 +1,14 @@
-
+@keyframes floatLogo {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
 :root{
 --bg:#081120;
 --bg2:#111827;
@@ -34,9 +44,12 @@ z-index:1000;
 }
 
 .logo img{
-    width: 180px;
-    max-width: 100%;
-    height: auto;
+    width:180px;
+    max-width:100%;
+    height:auto;
+    animation:floatLogo 6s ease-in-out infinite;
+    filter:drop-shadow(0 0 20px rgba(171,85,247,.45));
+    transition:all .3s ease;
 }
 
 nav a{
