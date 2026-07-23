@@ -62,15 +62,14 @@ transition:.3s;
 nav a:hover{color:var(--secondary)}
 
 .hero{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:120px 8%;
-background:
-radial-gradient(circle at top,rgba(139,92,246,.35),transparent 55%),
-linear-gradient(180deg,#081120,#111827);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:120px 8%;
+    background:
+        radial-gradient(circle at top, #6d28d9 0%, #25124f 25%, #0b1020 70%, #050814 100%);
 }
 
 .hero h1{
