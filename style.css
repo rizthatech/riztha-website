@@ -51,16 +51,18 @@ z-index:1000;
     transition:all .3s ease;
 }
 
-nav a{
-text-decoration:none;
-color:#fff;
-margin-left:24px;
-transition:.3s;
+nav a:hover{
+    color:var(--secondary);
 }
 
-nav a:hover{color:var(--secondary)}
-
-background:radial-gradient(circle at center,#7c3aed 0%,#4c1d95 25%,#111827 65%,#050814 100%);;
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:120px 8%;
+    background:radial-gradient(circle at center,#7c3aed 0%,#4c1d95 25%,#111827 65%,#050814 100%);
 }
 
 .hero h1{
