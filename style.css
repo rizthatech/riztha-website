@@ -62,7 +62,14 @@ nav a:hover{
     justify-content:center;
     text-align:center;
     padding:120px 8%;
-    background:radial-gradient(circle at center,#7c3aed 0%,#4c1d95 25%,#111827 65%,#050814 100%);
+
+    background:radial-gradient(
+        circle at center,
+        #4f46e5 0%,
+        #1e1b4b 30%,
+        #0b1220 70%,
+        #030712 100%
+    );
 }
 
 .hero h1{
