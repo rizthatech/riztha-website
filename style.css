@@ -23,10 +23,9 @@
 html{scroll-behavior:smooth}
 
 body{
-font-family:'Poppins',sans-serif;
-background:linear-gradient(180deg,#081120,#0f172a);
-color:var(--text);
-line-height:1.7;
+    font-family:Poppins,sans-serif;
+    background:#050814;
+    color:#fff;
 }
 
 header{
@@ -61,15 +60,7 @@ transition:.3s;
 
 nav a:hover{color:var(--secondary)}
 
-.hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:120px 8%;
-    background:
-        radial-gradient(circle at top, #6d28d9 0%, #25124f 25%, #0b1020 70%, #050814 100%);
+background:radial-gradient(circle at center,#7c3aed 0%,#4c1d95 25%,#111827 65%,#050814 100%);;
 }
 
 .hero h1{
